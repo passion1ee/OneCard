@@ -1,9 +1,11 @@
 #include "Card.h"
 
-inline constexpr Suit Card::getSuit() {
+inline constexpr Suit Card::getSuit()
+{
 	return suit;
 }
 
-inline constexpr int Card::getNumber() {
+inline constexpr int Card::getNumber()
+{
 	return number;
 }
